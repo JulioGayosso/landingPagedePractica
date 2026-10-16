@@ -1,97 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sonora Tech</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="imagen-header">
+          <picture>
+            <source srcset="img/sonora_speaker.avif" type="image/avif" />
+            <source srcset="img/sonora_speaker.webp" type="image/webp" />
+            <source srcset="img/sonora_speaker.jpg" type="image/jpeg" />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="img/sonora_speaker.png"
+              lazyalt="Bocina portátil SonoraTech verde bosque"
+              width="1000"
+              height="600"
+            />
+          </picture>
+        </div>
 
-        <div class="contenedor contenido-header">
-
-            <div class="imagen-header">
-                <picture>
-                    <source srcset="img/sonora_speaker.avif" type="image/avif">
-                    <source srcset="img/sonora_speaker.webp" type="image/webp">
-                    <source srcset="img/sonora_speaker.jpg" type="image/jpeg">
-                    <img loading="lazy" decoding="async" src="img/sonora_speaker.png"
-                        lazyalt="Bocina portátil SonoraTech verde bosque" width="1000" height="600">
-                </picture>
-            </div>
-
-            <div class="texto-header">
-                <p class="tagline-producto">Sonido Sin Limites</p>
-                <h1 class="nombre-producto degradado-producto">SonoraTech</h1>
-                <p class="descripcion-producto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-                    facere, ex non tempore cumque consequatur in numquam modi deserunt aliquam rem rerum alias aut
-                    itaque necessitatibus beatae. Quae, iure nulla!</p>
-                <p class="precio-producto">Desde <span>$1,299</span></p>
-                <a href="#" class="comprar-btn">Ordena Ahora</a>
-            </div>
-
-
-        </div> <!-- fin de contenido-header -->
-
-    </header> <!-- fin de todo el contenido  del header
+        <div class="texto-header">
+          <p class="tagline-producto">Sonido Sin Limites</p>
+          <h1 class="nombre-producto degradado-producto">SonoraTech</h1>
+          <p class="descripcion-producto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            facere, ex non tempore cumque consequatur in numquam modi deserunt
+            aliquam rem rerum alias aut itaque necessitatibus beatae. Quae, iure
+            nulla!
+          </p>
+          <p class="precio-producto">Desde <span>$1,299</span></p>
+          <a href="#" class="comprar-btn">Ordena Ahora</a>
+        </div>
+      </div>
+      <!-- fin de contenido-header -->
+    </header>
+    <!-- fin de todo el contenido  del header
  -->
 
     <section class="contenedor">
+      <div class="iconos">
+        <div class="icono">
+          <img src="img/icono-sonido.svg" alt="imagen icono sonido" />
+          <h3>Gran Sonido</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            tempora animi ab, facilis similique, aut quasi laborum laboriosam
+            quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
+            dolorem nihil.
+          </p>
+        </div>
 
-            <div class="iconos">
+        <div class="icono">
+          <img src="img/icono-garantia.svg" alt="imagen icono sonido" />
+          <h3>Garantia</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            tempora animi ab, facilis similique, aut quasi laborum laboriosam
+            quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
+            dolorem nihil.
+          </p>
+        </div>
 
-                <div class="icono">
-                    <img src="img/icono-sonido.svg" alt="imagen icono sonido">
-                    <h3>Gran Sonido</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi tempora animi ab, facilis similique,
-                        aut quasi laborum laboriosam quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
-                        dolorem nihil.</p>
-                </div>
-
-                <div class="icono">
-                    <img src="img/icono-garantia.svg" alt="imagen icono sonido">
-                    <h3>Garantia</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi tempora animi ab, facilis similique,
-                        aut quasi laborum laboriosam quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
-                        dolorem nihil.</p>
-                </div>
-
-                <div class="icono">
-                    <img src="img/icono-bateria.svg" alt="imagen icono sonido">
-                    <h3>+200 Horas de Bateria</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi tempora animi ab, facilis similique,
-                        aut quasi laborum laboriosam quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
-                        dolorem nihil.</p>
-                </div>
-
-            </div>
+        <div class="icono">
+          <img src="img/icono-bateria.svg" alt="imagen icono sonido" />
+          <h3>+200 Horas de Bateria</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            tempora animi ab, facilis similique, aut quasi laborum laboriosam
+            quos explicabo nam, atque nobis. Earum eaque, eligendi ullam nobis
+            dolorem nihil.
+          </p>
+        </div>
+      </div>
     </section>
 
-       <section class="sobre-tech">
-            <div class="contenedor sobre-tech-grid">
-                <div class="texto-sobre-tech">
-                    <h2>Sobre la <span>Bocina Tech</span></h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur nulla esse soluta. Modi veniam aliquid, repudiandae ab quis sapiente eum. Itaque, repudiandae minima alias quidem sapiente atque ipsa rerum asperiores!</p>
-                     <a href="#" >Ordena Ahora</a>
-                </div>
+    <section class="sobre-tech">
+      <div class="contenedor sobre-tech-grid">
+        <div class="texto-sobre-tech">
+          <h2>Sobre la <span>Bocina Tech</span></h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+            nulla esse soluta. Modi veniam aliquid, repudiandae ab quis sapiente
+            eum. Itaque, repudiandae minima alias quidem sapiente atque ipsa
+            rerum asperiores!
+          </p>
+          <a href="#">Ordena Ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <main class="contenedor modelos">
+      <h2 class="text-center degradado-producto header-modelos">
+        Elige tu BocinaTech
+      </h2>
+
+      <div class="listado-modelos">
+        <div class="modelo modelo-x">
+          <h3>BocinaPRO X</h3>
+          <p class="precio">$1299</p>
+        </div>
+        <div class="modelo modelo-y">
+          <h3>BocinaPRO Y</h3>
+          <p class="precio">$2199</p>
+        </div>
+        <div class="modelo modelo-z">
+          <h3>BocinaPRO Z</h3>
+          <p class="precio">$3299</p>
+        </div>
+      </div>
+    </main>
+
+       <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur vitae maxime praesentium assumenda nulla consequatur illo facere ullam, debitis dolore. Aliquid a recusandae nam beatae dolor veniam et, exercitationem placeat?</p>
+
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email" >
+                    </div>
+
+                    <input type="submit" value="Inscribirme">
+                </form>
             </div>
-       </section>
+        </div>
+    </section>
 
 
 
-
-
-</body>
-
+  </body>
 </html>
